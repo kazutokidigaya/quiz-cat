@@ -1,40 +1,41 @@
 # Quiz-EZ Frontend
 
 This is the frontend portion of the Quiz-EZ application, a quiz platform built with React. It interacts with the backend to provide a complete quiz experience.
+the app is available on the link[https://quiz-mern-snowy.vercel.app/]
 
 ## Features
 
-- **User Authentication**:
+- **User Authentication**
 
-  - Email-based signup with OTP verification
-  - Google OAuth integration for seamless signup/login
-  - Login & logout functionality with token-based authentication
+  - Sign up via email with OTP verification
+  - Log in effortlessly using Google OAuth
+  - Secure login and logout using token-based authentication
 
-- **Protected Routes**:
+- **Protected Routes**
 
-  - Secure routing using React Router and a custom `ProtectedRoute` component
-  - Access control ensuring only authenticated users can view protected pages
+  - Uses React Router along with a custom `ProtectedRoute` component to guard private pages
+  - Ensures that only logged-in users can access certain features
 
-- **Quiz Experience**:
+- **Quiz Experience**
 
-  - Dynamic quiz attempts with adaptive difficulty (easy, medium, hard questions)
-  - Timed questions with auto-skip when time runs out
-  - Detailed results and performance breakdown using charts (Recharts)
+  - Enjoy dynamic quizzes with adaptive difficulty levels (easy, medium, hard)
+  - Answer timed questions with automatic skip when time runs out
+  - View detailed results with performance breakdowns using interactive charts (Recharts)
 
-- **Admin Features**:
+- **Admin Features**
 
-  - Admin users can create, update, and delete quizzes
-  - Quiz creation supports multiple questions, options, correct answers, difficulty levels, and tags
+  - Admins can create, update, and delete quizzes
+  - Create quizzes with multiple questions, answer options, correct answers, difficulty levels, and tags
 
-- **User Profile & History**:
+- **User Profile & History**
 
-  - Update profile information including name, password, and profile image
-  - View quiz history and detailed breakdown of past attempts
-  - Leaderboards displaying top quiz scores
+  - Update your profile (name, password, and profile picture)
+  - Check your quiz history with detailed breakdowns of each attempt
+  - See leaderboards that display the top scores
 
-- **User Interface**:
-  - Styled using Tailwind CSS for a modern, responsive design
-  - Toast notifications for user feedback (react-toastify)
+- **User Interface**
+  - Modern and responsive design powered by Tailwind CSS
+  - Friendly toast notifications (using react-toastify) to keep you informed
 
 ## Running the App Locally
 
@@ -43,21 +44,22 @@ This is the frontend portion of the Quiz-EZ application, a quiz platform built w
 If you haven't already, clone the repository:
 
 ```bash
-git clone https://github.com/your-username/quiz-ez.git
+git clone https://github.com/kazutokidigaya/quiz-cat.git
 ```
 
-### 1. Clone the Repository
+### 2. Install Dependencies
 
 If you haven't already, clone the repository:
 
 ```bash
-git clone https://github.com/your-username/quiz-ez.git
+cd quiz-cat/frontend
+npm install
 ```
 
-### 1. Clone the Repository
+### 3. Start the Development Server
 
-If you haven't already, clone the repository:
+run the following command to start the app:
 
 ```bash
-git clone https://github.com/your-username/quiz-ez.git
+npm start
 ```
